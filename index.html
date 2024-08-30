@@ -1,0 +1,193 @@
+<!--PS.2020.041_K.D.Abeysekara-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4f2bcf6a30.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <p>Undergraduate</p>
+                <h1>Hi, I'm <span>Kavindu</span> Dilshan</h1>
+            </div>
+        </div>
+
+    </div>
+<!-- ------------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="images"  > -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm an undergraduate pursuing a Bachelor of Science in Physical Science, specializing in Statistics and Computer Science, at the University of Kelaniya.
+                         My skills include advanced data analysis, programming in Python, R, Java, and C, and software development, complemented by a talent for graphic design. 
+                         Passionate about blending data and technology, I'm eager to connect with professionals and explore opportunities in data science, programming, and design. Let's connect and collaborate!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Designing web</span><br></li>
+                            <li><span>Software Development</span><br></li>
+                            <li><span>Graphic Design</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Product Strategy Team Leader - oGTa</span><br>AIESEC in University of Kelaniya</li>
+                            <li><span>Graphic Designer | CN | Creative Regiment </span><br>AIESEC in University of Kelaniya</li>
+                            <li><span>Committee Member</span><br>Statistics and Computer Science Students' Association -University Of Kelaniya</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>University of Kelaniya</span><br></li>
+                            <li><span>IJSE - Institute of Software Engineering</span><br></li>
+                            <li><span>St. Joseph's College Anuradhapura</span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------servieces---------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>Specializing in web design, I create visually stunning and user-friendly websites that engage visitors and drive results. Let's bring your vision to life online</p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Software Development</h2>
+                    <p>Delivering custom software solutions tailored to your business needs. From concept to deployment, we ensure high-quality, efficient, and scalable software to drive your success.</p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Creating eye-catching visuals that communicate your brand's message and captivate your audience. Let's bring your ideas to life with stunning graphic design.</p>
+                    <a href="#"> Learn more</a>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <!-- -----------Portfolio---------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/web.png">
+                        <div class="layer">
+                            <h3>Event management website</h3>
+                            <p>Our event management website offers seamless planning and execution for memorable events, 
+                                from venue booking to guest list management.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="images/Winter Induction (1).png"  >
+                    <div class="layer">
+                        <h3>Flyer design</h3>
+                        <p>Creating eye-catching flyers that captivate your audience and effectively communicate your message. 
+                            Let us design vibrant and impactful flyers for your needs.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Registration_open.png"  >
+                    <div class="layer">
+                        <h3>Flyer Design</h3>
+                        <p>Creating eye-catching flyers that captivate your audience and effectively communicate your message. 
+                            Let us design vibrant and impactful flyers for your needs.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-- ---------contact-------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>kavindudilshan735@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0773408124</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/kavindu-dilshan-abeysekara-161387225"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/KD+Abeysekara+CV+Resume (1).pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Messages"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy Kavindu Dilshan Abeysekara. <i class="fa-solid fa-heart"></i></p>
+        </div>
+     </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+  </script>  
+</body>
+</html>
